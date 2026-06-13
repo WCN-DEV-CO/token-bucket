@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "token-bucket-wcn"
+version = "0.1.0"
+description = "Tiny zero-dependency thread-safe token-bucket rate limiter for Python."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "WCN Development Co"}]
+keywords = ["rate-limit", "token-bucket", "throttle", "backpressure", "reliability"]
+classifiers = ["License :: OSI Approved :: MIT License","Programming Language :: Python :: 3","Operating System :: OS Independent","Intended Audience :: Developers"]
+
+[project.urls]
+Homepage = "https://github.com/WCN-DEV-CO/token-bucket"
